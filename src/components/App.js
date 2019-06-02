@@ -46,7 +46,7 @@ function App() {
             label="Password"
             type="password"
             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
-            required=""
+            required
             title="Minimum 10 characters containing at least one number, one uppercase and lowercase"
           />
           <SubmitButton>Submit</SubmitButton>
